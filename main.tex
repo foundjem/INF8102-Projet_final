@@ -1,0 +1,46 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+\usepackage{docstyle}
+
+% Champs à modifier au besoin
+\renewcommand{\doctitle}{Securing Apps on AWS}
+\newcommand{\institution}{Armstrong Foundjem, Ph.D.}
+\newcommand{\studyprogram}{Génie informatique/logiciel}
+\newcommand{\faculte}{\Large \textbf{INF8102} - Sécurité dans les environnements infonuagiques}
+\newcommand{\uni}{Polytechnique Montréal}
+\newcommand{\suni}{PolyMtl}
+
+\begin{document}
+\title{\doctitle}
+\pagenumbering{roman}
+
+\input{title}
+\newpage
+
+% Décommenter au besoin
+%\tableofcontents
+% \listoffigures
+% \listoftables
+
+\begin{abstract}
+This document is a model and instructions for \LaTeX.
+This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
+or Math in Paper Title or Abstract.
+\end{abstract}
+
+\begin{IEEEkeywords}
+component, formatting, style, styling, insert
+\end{IEEEkeywords}
+
+\pagenumbering{arabic}
+
+\input{sections/intro}
+Décommentez, ayez au moins une référence~\cite{ghelani2022cyber} sinon il y aura un warning.
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{references.bib}
+\end{document}
